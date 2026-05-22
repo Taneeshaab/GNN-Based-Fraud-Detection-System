@@ -52,7 +52,7 @@ Fraud Classification
         │
         ▼
 Fraud Probability Output
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Programming & ML: Python, PyTorch, PyTorch Geometric, NumPy, Pandas, Scikit-learn
 
 Graph Learning: Graph Neural Networks (GNN), Graph Convolution Networks (GCN), Graph Embedding Techniques
@@ -71,7 +71,7 @@ GNN-Based-Fraud-Detection-System/
 ├── requirements.txt           # Dependencies
 └── README.md
 
-Installation
+## Installation
 1️⃣ Clone the Repository
 
 Bash
@@ -115,14 +115,14 @@ Encodes categorical variables
 
 Balances fraud classes
 
-🕸️ Graph Construction
+## 🕸️ Graph Construction
 The system converts transaction data into graph structures:
 
 Nodes → accounts/users/transactions
 
 Edges → interactions/shared properties
 
-🤖 GNN Training
+## 🤖 GNN Training
 The GNN learns:
 
 Structural relationships
@@ -131,10 +131,10 @@ Neighborhood fraud patterns
 
 Hidden graph anomalies
 
-📈 Fraud Prediction
+## 📈 Fraud Prediction
 Each node receives a fraud probability score for classification.
 
-📊 Model Evaluation Metrics
+## 📊 Model Evaluation Metrics
 The system evaluates performance using:
 
 Accuracy
@@ -149,7 +149,7 @@ ROC-AUC
 
 Fraud detection datasets are typically highly imbalanced, making recall and ROC-AUC especially important.
 
-🧪 Research Inspiration
+## 🧪 Research Inspiration
 This project draws inspiration from modern graph-based fraud detection research including:
 
 CARE-GNN
@@ -162,7 +162,7 @@ GraphSAGE fraud detection systems
 
 Recent studies show GNNs significantly improve fraud detection by modeling relational dependencies instead of isolated transactions.
 
-🎯 Use Cases
+## 🎯 Use Cases
 💳 Financial transaction fraud detection
 
 🏦 Banking risk analysis
@@ -190,12 +190,12 @@ Distributed graph training
 
 Cloud deployment pipeline
 
-📸 Demo & Results
+## 📸 Demo & Results
 Add screenshots, confusion matrices, ROC curves, or graph visualizations here.
 
 Example:
 
-🧠 Key Learnings
+## 🧠 Key Learnings
 Importance of graph relationships in fraud analysis
 
 Handling highly imbalanced datasets
@@ -206,15 +206,15 @@ Real-world anomaly detection challenges
 
 Deep learning on relational data structures
 
-🤝 Contributors
+## 🤝 Contributors
 Developed by Taneeshaa
 
 GitHub Profile: Taneeshaab GitHub Profile
 
-📄 License
+## 📄 License
 This project is developed for educational, research, and experimentation purposes.
 
-🌟 Acknowledgements
+## 🌟 Acknowledgements
 Special thanks to:
 
 PyTorch Geometric
@@ -225,7 +225,7 @@ Fraud detection research community
 
 Graph neural network researchers
 
-📚 References
+## 📚 References
 CARE-GNN Research Paper
 
 GraphConsis Fraud Detection Framework
@@ -236,7 +236,7 @@ Hierarchical Attention GNN Research
 
 PyTorch Geometric Documentation
 
-📬 Contact
+## 📬 Contact
 For collaborations, research discussions, or contributions:
 
 GitHub Profile
