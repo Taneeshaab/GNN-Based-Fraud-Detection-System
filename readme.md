@@ -52,7 +52,7 @@ Fraud Classification
         │
         ▼
 Fraud Probability Output
-## 🛠️ Tech Stack
+**## 🛠️ Tech Stack**
 Programming & ML: Python, PyTorch, PyTorch Geometric, NumPy, Pandas, Scikit-learn
 
 Graph Learning: Graph Neural Networks (GNN), Graph Convolution Networks (GCN), Graph Embedding Techniques
