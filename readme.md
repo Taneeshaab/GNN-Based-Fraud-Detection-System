@@ -1,21 +1,13 @@
-Here is the properly formatted `README.md` content. I've structured it with clean Markdown headers, bullet points, and code blocks for the terminal commands and diagrams so it renders perfectly on GitHub.
-
-You can easily copy this entire block using the copy button in the top right corner and paste it directly into your file.
-
-```markdown
 # GNN-Based Fraud Detection System
 
 ## 🌟 Overview
 Traditional fraud detection models treat transactions independently, often missing hidden connections between fraudulent entities. Graph Neural Networks (GNNs) solve this by learning from relationships and graph structures.
-
 This system models transactions as interconnected graphs where:
-* **Nodes** represent users/accounts/transactions.
-* **Edges** represent interactions or relationships.
-* **GNNs** learn suspicious behavioral patterns from neighborhood structures.
+* **Nodes** represent users/accounts/transactions
+* **Edges** represent interactions or relationships
+* **GNNs** learn suspicious behavioral patterns from neighborhood structures
 
 Graph-based fraud detection has become a major research direction in financial AI systems due to its ability to capture relational anomalies and hidden fraud rings. 
-
----
 
 ## 🚀 Features
 * 🕸️ **Graph-based fraud detection pipeline**
@@ -28,8 +20,6 @@ Graph-based fraud detection has become a major research direction in financial A
 * 📉 **Imbalanced fraud dataset handling**
 * 📂 **End-to-end preprocessing + training pipeline**
 
----
-
 ## 🧠 Why GNNs for Fraud Detection?
 Fraudulent behavior often exists in connected ecosystems:
 * Shared devices
@@ -38,8 +28,6 @@ Fraudulent behavior often exists in connected ecosystems:
 * Repeated transaction chains
 
 Unlike traditional ML models, GNNs aggregate neighborhood information to uncover hidden fraud communities and anomalous patterns. 
-
----
 
 ## 🏗️ System Architecture
 ```text
@@ -64,8 +52,6 @@ Fraud Classification
         │
         ▼
 Fraud Probability Output
-
-```
 
 ---
 
